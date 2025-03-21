@@ -1,3 +1,10 @@
+Пример REST API на nest. Технологии nest, prisma, postgreSql, swagger.
+
+В приложение реализованно: создание пользователя, получение всех пользователей, создание ролей, выдача ролей,
+забанить пользователя, создание постов пользователя, регистрация, вход.
+
+Документация - /api/docs (swagger). БД - postgeSql.
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
