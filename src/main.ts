@@ -7,6 +7,7 @@ async function start() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
+    .addBearerAuth()
     .setTitle("backend")
     .setDescription("docs REST API")
     .setVersion("1.0")
